@@ -7,7 +7,7 @@ public class ChlopakiNiePlacza implements BoysDontCry  {
      System.out.println("Jestem silnoreki");
 
     }
-    public void sing(){
+    public void sing() {
         System.out.println("Ruszaj sie...");
     }
 }
