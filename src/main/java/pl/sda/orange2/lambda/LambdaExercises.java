@@ -45,8 +45,11 @@ public class LambdaExercises {
         };
         CoffeeMaker myCoffeeMaker3 = (int water, String coffeeType) -> {
             System.out.println("Coffee brewing...");
-            return "my coffee";
+            return "Java latte";
         };
+
+        String myCoffee = myCoffeeMaker3.prepare(5,"Small");
+        System.out.println("my coffee is ready:" + myCoffee);
 
         CoffeeMaker shortVersion = (water, coffeeType) -> "my coffee";
         shortVersion.prepare(5,"LArge Java cofee");
