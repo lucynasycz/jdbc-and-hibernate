@@ -6,5 +6,5 @@
 
 
 ### Merge types
-- fast-forward
-- 
+- fast forward
+- with merge commit
