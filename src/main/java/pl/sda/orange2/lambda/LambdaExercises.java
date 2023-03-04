@@ -49,6 +49,7 @@ public class LambdaExercises {
         };
 
         CoffeeMaker shortVersion = (water, coffeeType) -> "my coffee";
+        shortVersion.prepare(5,"LArge Java cofee");
 
     }
 }
