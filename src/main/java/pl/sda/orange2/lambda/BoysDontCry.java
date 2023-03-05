@@ -8,6 +8,7 @@ public interface BoysDontCry {
     void silnoreki();
 
     // jak jest default to musi miec ciało i nie jest abstrakcyjna
-    default void cry() {}
+    default void cry() {
+    }
 
 }

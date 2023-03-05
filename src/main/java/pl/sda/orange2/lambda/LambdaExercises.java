@@ -25,7 +25,8 @@ public class LambdaExercises {
         // -> argument body separator
         // {} parenthesis - method body
 
-        BoysDontCry firstLambda = () -> {};
+        BoysDontCry firstLambda = () -> {
+        };
 
         //jesli jedna instrukcja w ciele lamda to  nie trzeba {}
         BoysDontCry secondLambda = () -> System.out.println("Lambda");
@@ -48,11 +49,11 @@ public class LambdaExercises {
             return "Java latte";
         };
 
-        String myCoffee = myCoffeeMaker3.prepare(5,"Small");
+        String myCoffee = myCoffeeMaker3.prepare(5, "Small");
         System.out.println("my coffee is ready:" + myCoffee);
 
         CoffeeMaker shortVersion = (water, coffeeType) -> "my coffee";
-        shortVersion.prepare(5,"LArge Java cofee");
+        shortVersion.prepare(5, "LArge Java cofee");
 
     }
 }
